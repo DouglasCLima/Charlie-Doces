@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+  overflow-x: hidden; /*Tira a rolagem lateral/eixo X*/
+  letter-spacing: 1.2px;
+  font-family: "Abel", sans-serif;
+}
+
+/* Registro de Dados Pessoais */
+
+.etapa{
+    display: flex;
+    position:relative;
+    padding-top: 80px;
+    left: 760px;
+    column-gap: 10px;
+    margin-bottom: 15px;
+}
+
+.etapa-1{
+    background-color: #F2DDA0;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.etapa-2{
+    background-color: #BF0B0B;
+    border-radius:  50px;
+    padding: 15px 22px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px 25px;
+    padding: 40px;
+    height: 50vh;
+    width: 100%;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    border:  solid palevioletred;
+}
+
+.btn-avancar{
+    width: 170px;
+    height: 40px;
+    font-size: 1.3rem;
+    font-weight:400;
+    border-radius: 8px;
+    background-color: #BBBF4E;
+    border: none;
+
+}
+
+.avancar{
+    padding-top: 8px;
+}
+
+/* Registro de Endereço */
+
+
+.registro-endereco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px 25px;
+    padding: 25px;
+    height: 70vh;
+    width: 100%;
+}
+
+.etapa-endereco{
+    display: flex;
+    position:relative;
+    padding-top: 80px;
+    column-gap: 10px;
+    margin-bottom: 15px;
+}
+
+
+.etapa-2-endereco{
+    background-color: #F2DDA0;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.etapa-1-endereco{
+    background-color: #BBBF4E;
+    border-radius: 50px;
+    padding: 15px 22px;
+}
+
+.form{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap:45px;
+    position: relative;
+    left: 150px;
+    height: 70vh;
+}
+
+.btn-cadastrar{
+    width: 170px;
+    height: 40px;
+    font-size: 1.3rem;
+    font-weight:400;
+    border-radius: 8px;
+    background-color: #BBBF4E;
+    border: none;
+}
+
+.cadastrar{
+    padding-top: 8px;
+}
+
+.disable{
+    display: none;
+}
+
+.possui-cadastro{
+    display: flex;
+    justify-self: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 0 0 20px 80px;
+    color: rgb(0, 0, 0);
+}
+
+.possui-cadastro:hover{
+    text-decoration: underline;
+}
