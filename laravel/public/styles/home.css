@@ -83,6 +83,7 @@ nav{
     width: 260px;
     height: 260px;
     border-radius: 50%;
+    border: 2px solid #e071b2;
 }
 
 .link-img p{
