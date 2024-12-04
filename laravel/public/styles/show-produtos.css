@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: 'Ubuntu';
+    background-color: #F2DDA0;
+}
+
+#principal{
+    display: flex;
+    justify-content: center;
+    padding: 30px 60px 60px 60px;
+}
+
+.voltar{
+    padding: 30px 0 10px 240px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.voltar a{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: #696969 0 2px 2px;
+    background-color: #BBBF4E;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+.voltar a:hover{
+    background-color: #ffffff;
+    color: #BBBF4E;
+    text-shadow: none;
+}
+
+.Card{
+    display: flex;
+    padding: 50px;
+    gap: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.349);
+    width: 1000px;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
+.nome{
+    text-size-adjust:unset;
+    font-size: 2rem;
+    color: rgba(37, 37, 37, 0.808);
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    font-size: 1rem;
+    width: 500px;
+}
+
+.precos-comprar{
+    padding-top: 20px;
+}
+
+.preco-original{
+    text-decoration:line-through;
+    color: #bf4563;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.preco-principal{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+.preco-desconto{
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.911);
+    text-decoration: underline;
+}
+
+#campo-imagem-principal{
+    padding: 20px 0 20px;
+    width: 500px;
+}
+
+#imagem-principal{
+    width: 400px;
+}
+
+.campo-imagens{
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 10px;
+    padding-bottom: 18px;
+}
+
+
+#imagens{
+    display: flex;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border: solid 1.5px #7c7c7c7a;
+    border-radius: 10px;
+}
+
+.comprar{
+    display: flex;
+    justify-self: flex-end;
+    gap: 4px;
+}
+
+.comprar a :nth-child(1){
+    width: 25px;
+    height: 20px;
+}
+
+.comprar a:active{
+    transform: scale(0.95);
+}
+
+.comprar a:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #BBBF4E;
+}
+
+.comprar a{
+    display: flex;
+    padding: 25px 25px;
+    color: #BBBF4E;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: solid 1px #BBBF4E;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.349);
+    background-color: #ffffff;
+}
+
+.sem-estoque a{
+    color: #bf0b0b85;
+}

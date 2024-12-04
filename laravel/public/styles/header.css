@@ -1,0 +1,99 @@
+/*design header*/
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+}
+
+#combo-header{
+    background-color: #F9EDEC;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+#img-logo{
+    width: 350px;
+    height: 180px;
+    position: relative;
+    left: 150px;
+}
+
+#header input{
+    border-radius: 10px;
+    height: 30px;
+    border: 3px solid palevioletred;
+    width: 550px;
+    color: black;
+    font-size: 1.1rem;
+    padding-left: 15px;
+}
+
+#login-carrinho{
+    display: flex;
+    position: relative;
+    left: 300px;
+}
+
+#login-carrinho img:nth-child(1){
+    width: 55px;
+    height: 55px;
+}
+
+#login-carrinho img:nth-child(2){
+    width: 50px;
+    height: 50px;
+}
+
+.slogan{
+    position: relative;
+    left: 250px;
+    color: #bb4c4cd2;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+}
+
+#meus-pedidos {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-container {
+    display: none; /* O link estará oculto inicialmente */
+    position: absolute;
+    width: 110px;
+    top: 95%; /* Ajuste conforme necessário */
+    left: -50px;
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link-container p{
+    padding-bottom: 10px;
+}
+
+#meus-pedidos:hover .link-container {
+    display: block; /* Mostra o link ao passar o mouse */
+}
+
+.meus-pedidos, .sair{
+    text-decoration: none;
+    color: #333; /* Cor do link */
+    font-weight: 500;
+}
+
+.meus-pedidos:hover {
+    color: #007bff; /* Cor ao passar o mouse sobre o link */
+}
+
+.sair:hover{
+    color:#ec1f1f;
+}
+
+.nao-autenticado{
+    display: flex;
+    width: 200px;
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color: #D94A4A;
+    font-family: 'Ubuntu';
+    overflow-x: hidden;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #BBBF4E;
+}
+
+
+#carrinho-container{
+    margin: 0 100px;
+    padding: 50px 0;
+    list-style:none;
+    background-color: #ffffff;
+}
+
+#carrinho-container a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #BBBF4E;
+    margin: 40px 0 0 60px;
+    border-radius: 10px;
+}
+
+#carrinho{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#itens-carrinho{
+    display: flex;
+    justify-content: center;
+}
+
+#itens{
+    background-color: #F9EDEC;
+    width: 1200px;
+    padding: 30px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#nome-descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 800px;
+}
+
+#nome-descricao img{
+    width: 60px;
+    height: 60px;
+    border: solid 1.5px #7c7c7c7a;
+    border-radius: 10px;
+
+}
+
+#total-qtd{
+    display: flex;
+
+    font-size: 1.3rem;
+    gap: 35px;
+}
+
+#total-qtd input{
+    width: 20px;
+    font-size: 1.05rem;
+}
+
+.qtd-compra{
+    text-align: center;
+}
+
+.qtd{
+    display: flex;
+    gap: 15px;
+}
+
+.qtd p:hover{
+    cursor: pointer;
+}
+
+.mais-menos{
+    font-size: 1.5rem;
+    border: none;
+    background-color: none;
+}
+
+.btn-excluir{
+    width: 30px;
+    background-color: none;
+    border: none;
+}
+
+.preco-original{
+    text-decoration:line-through;
+    color: #bf4563;
+}
+
+.total{
+    background-color: #F2DDA0;
+    width: 1200px;
+    padding: 30px;
+    gap: 700px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    /* margin-left: 60px; */
+}
+ .total h2{
+    font-size: 2.2rem;
+ }
+
+ .total p{
+    font-size: 2rem;
+    padding-left: 80px;
+ }
+
+ .finaliza-compra{
+    margin-top: 30px;
+    position: relative;
+    left: 1050px;
+ }
+
+ .mensagem-vazio{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 3rem;
+    font-weight: 600;
+
+ }
+

@@ -41,11 +41,11 @@
         </div>
 
         <div class="remember">
-            @if (Route::has('password.request'))
+            <!-- @if (Route::has('password.request'))
                 <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
                     {{ __('Esqueci minha senha') }}
                 </a>
-            @endif
+            @endif -->
 
             <x-primary-button class="btn-enviar">
                 {{ __('Entrar') }}
@@ -54,6 +54,6 @@
     </form>
     <a class="registre-se" href="{{route('register')}}">Não tem login? Cadastre-se clicando aqui</a>
     </div>
+    </div>
 </x-header>
-</div>
 <x-footer></x-footer>

@@ -1,22 +1,3 @@
-const registroDadosPessoais = document.querySelector('.registro-dados-pessoais');
-const registroEndereco = document.querySelector('.registro-endereco');
-
-const voltarDadosPessoais = document.querySelector('.etapa-1-endereco');
-
-voltarDadosPessoais.addEventListener('click', ()=> {
-    registroEndereco.classList.add('disable')
-    registroDadosPessoais.classList.remove('disable')
-    return
-});
-
-const botaoAvancar = document.querySelector('.btn-avancar');
-
-botaoAvancar.addEventListener('click', ()=> {
-    registroEndereco.classList.remove('disable')
-    registroDadosPessoais.classList.add('disable')
-    return
-});
-
 window.onload = function () {
     let urlBase = "https://viacep.com.br/ws/";
     let codigoPostal = document.querySelector("[name='endereco_cep']");
@@ -55,9 +36,3 @@ window.onload = function () {
         };
     }
 };
-
-
-
-
-
-

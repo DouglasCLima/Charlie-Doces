@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+a:hover, button:hover{
+    cursor: pointer;
+}
+body{
+    background-color: #D94A4A;
+    font-family: 'Ubuntu';
+    overflow-x: hidden;
+}
+
+#principal-sem-pedidos{
+    display: flex;
+    width: 680px;
+    height: 100%;
+    padding: 70px 300px;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    background-color: bisque;
+}
+#principal-sem-pedidos p{
+    font-size: 1.8rem;
+    padding-left: 150px;
+}
+
+
+.btn-acoes{
+    position: relative;
+    left: 240px;
+    top: 100px;
+}
+.com-pedidos .btn-acoes, .sem-pedidos .btn-acoes{
+    background-color: rgb(90, 204, 25);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    box-shadow: #000 4px 4px;
+    text-shadow: #000 2px 1px;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.btn-acoes a:active, .finalizar-pedido button:active, a:active, button:active{
+    scale: 0.98;
+}
+
+#principal{
+    display: flex;
+    width: 600px;
+    height: 100%;
+    padding: 70px 300px;
+    flex-direction: column;
+    justify-self: center;
+    background-color: bisque;
+}
+
+#principal h1{
+    padding: 20px 80px;
+    color: #353535;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.numero-pedido{
+    display: flex;
+    gap:350px;
+    background-color: #b9b9b9;
+    width: 700px;
+    padding: 20px;
+    padding-left: 50px;
+    border-radius: 0 8px 0 8px;
+    margin-bottom: 15px;
+
+}
+
+.numero-pedido p{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    gap: 20px;
+    padding: 0 0 40px 20px;
+}
+
+.data-endereco{
+    display: flex;
+    gap: 40px;
+}
+
+.data-endereco p, .total-pedido p{
+    font-size: 1.2rem;
+}
+
+.total-pedido{
+    text-align: end;
+    background-color: #97ff97;
+    padding: 20px
+}
+
+ul{
+    list-style: none;
+}

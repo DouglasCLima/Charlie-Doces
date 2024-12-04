@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: 'Ubuntu';
+    background-color: #F2DDA0;
+}
+a:hover{
+    cursor: pointer;
+}
+
+#categorias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 40px 0 0 0;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #BF0B0B;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.349);
+
+
+}
+
+#principal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 60px 0 60px;
+}
+
+.Card{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.349);
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
+.nome{
+    display: flex;
+    text-size-adjust:unset;
+    font-size: 18px;
+    color: rgba(37, 37, 37, 0.808);
+}
+
+.texto-principal{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.preco-principal{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+
+.preco-original{
+    text-decoration:line-through;
+    color: #bf4563;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 8px;
+}
+
+.preco-desconto{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.911);
+    text-decoration: underline;
+}
+
+#campo-imagem-principal{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    height: 200px;
+}
+
+#imagem-principal{
+    width: 200px;
+}
+
+.campo-imagens{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 18px;
+}
+
+#imagens{
+    width: 60px;
+    height: 60px;
+    border: solid 1.5px #7c7c7c7a;
+    border-radius: 10px;
+}
+
+.comprar{
+    display: flex;
+    justify-self: center;
+    gap: 3px;
+}
+
+.comprar a :nth-child(1){
+    width: 25px;
+}
+
+.comprar a:active{
+    transform: scale(0.95);
+}
+
+.comprar a:hover{
+    cursor: pointer;
+}
+
+.comprar a:active{
+    scale: 0.98;
+}
+
+.comprar a{
+    display: flex;
+    padding: 20px;
+    color: #84e237;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+    border: solid 1px #BBBF4E;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.349);
+    background-color: #ffffff;
+}
+
+.sem-estoque a{
+    color: #bf0b0b96;
+}
+
+.paginacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginacao nav{
+    margin-top: 20px;
+}
+
+.paginacao ul li{
+    list-style: none;
+}
+
+.paginacao a {
+    margin: 0 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.paginacao nav a:hover {
+    background-color: #f0f0f0;
+    border-color: #007bff;
+}
+
+.paginacao nav .active {
+    background-color: #5e9e29;
+    color: #fff;
+    border-color: #007bff;
+}
+
+
+
+

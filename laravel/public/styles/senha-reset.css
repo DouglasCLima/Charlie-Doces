@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(248, 248, 248);
+}
+
+#principal{
+    font-size: 1.3rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-self: center;
+    align-items: center;
+    padding: 15px;
+    border: solid  rgb(190, 190, 190);
+    border-radius: 10px;
+    position: relative;
+    top: 150px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    border:  solid palevioletred;
+}
+
+.btn-avancar{
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-weight:400;
+    border-radius: 8px;
+    background-color: #BBBF4E;
+    border: none;
+
+}

@@ -9,17 +9,19 @@ use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
-    /** @use HasFactory<\Database\Factories\UserFactory> */
-    use HasFactory, Notifiable;
     protected $table = 'USUARIO';
     public $timestamps = false;
     protected $primaryKey = 'USUARIO_ID';
 
     protected $fillable = [
+        'USUARIO_ID',
         'USUARIO_NOME',
         'USUARIO_EMAIL',
         'USUARIO_SENHA',
         'USUARIO_CPF'
     ];
-
+    public function endereco()
+{
+    return $this->hasOne(Endereco::class, 'USUARIO_ID');
+}
 }

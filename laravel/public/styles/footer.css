@@ -1,0 +1,27 @@
+/* design footer*/
+
+footer{
+    position: relative;
+    bottom: 0px;
+    overflow-x: none;
+}
+
+#rodape{
+    display:flex;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.774);
+    align-items: center;
+    justify-content: center;
+}
+
+#imagem-footer{
+    width: 50px;
+    height: 50px;
+    margin-left: 2px;
+}
+
+#texto-footer{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+}
