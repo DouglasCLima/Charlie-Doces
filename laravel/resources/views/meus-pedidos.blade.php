@@ -56,7 +56,7 @@
                         </div>
                     @endforeach
                     <div class="total-pedido">
-                        <p><strong>Total do Pedido: </strong> R$ {{ number_format($totalPedido, 2, ',', '.') }}</p>
+                        <p><strong>Total do Pedido: </strong> R${{ number_format($totalPedido, 2, ',', '.') }}</p>
                     </div>
                     </div>
 

@@ -10,9 +10,9 @@
             <a href="{{route('carrinho')}}">Editar carrinho</a>
         </div>
     <div id="principal">
-        <h2>{{$usuario}}, revise o seu pedido antes de finalizar sua compra.</h2>
+        <h2>{{ucwords($usuario)}}, revise o seu pedido antes de finalizar sua compra.</h2>
         <div class="dados-pessoais">
-        <p class="nome"><strong>Nome para entrega: </strong>{{$nome_completo}}</p>
+        <p class="nome"><strong>Nome para entrega: </strong>{{ucfirst($nome_completo)}}</p>
         <p class="endereco"><strong>Endereço de entrega:</strong>
          {{ $endereco->ENDERECO_LOGRADOURO }},
                         {{ $endereco->ENDERECO_NUMERO }}

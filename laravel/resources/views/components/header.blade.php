@@ -24,7 +24,7 @@
                     <div id="meus-pedidos">
                             <img src="{{asset('icons/perfil.png')}}" alt="">
                             <div class="link-container">
-                                <p><strong>Olá, {{ $usuario .'!'}}</strong></p>
+                                <p><strong>Olá, {{ucwords( $usuario).'!'}}</strong></p>
                                 <a class="meus-pedidos" href="{{ route('meus.pedidos') }}">Meus Pedidos</a>
                                 <a class="sair" href="{{ route('logout') }}">Sair</a>
                             </div>
